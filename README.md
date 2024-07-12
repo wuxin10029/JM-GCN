@@ -1,7 +1,8 @@
 # JM-GCN
 A tutorial for implementing the JMGCN model
 
-![image](https://github.com/user-attachments/assets/5303ce72-bc55-4128-995a-b1a3c69e164f)
+![image](https://github.com/user-attachments/assets/ce89ec07-9945-4380-b00f-0029632ef977)
+
 
 ## 1. Code files
 Here, we introduce the main python files for the proposed JM-GCN model.
@@ -26,7 +27,7 @@ Here, we introduce the main python files for the proposed JM-GCN model.
   
 - **train.py**: The main program to start the experiment.
 
-## 3. Dataset
+## 2. Dataset
 We provide the raw data used by the JM-GCN model so that subsequent researchers can use the study. This includes daily pollutant and meteorological data for Beijing, site information, and POI data.
 The raw data is available for download on this cloud drive 
 https://drive.google.com/drive/folders/1p0a8FlJ4KN-bdqBN3BAP6YJx180vvESe?usp=sharing
@@ -36,10 +37,10 @@ Details of each file are shown below:
 - **matrix**: `dist.npy`, `func.npy`, `poi.npy`, static adjacency matrix with dimension 34*34. Dynamic adjacency matrices are generated directly in the code run.
 - **temporal_data**: Run `generate_training_data.py` to generate the training file automatically.
 
-## 4. Running
+## 3. Running
 Running `train.py` will automatically train and test the model. The result will show the MAE, MAPE, and RMSE for each step.
 
-## 5. Related materials
+## 4. Related materials
 (a) Runtime environment:
 - python==3.7.16
 - torch==1.8.1+cu111
