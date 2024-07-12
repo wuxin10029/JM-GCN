@@ -1,5 +1,6 @@
 # JM-GCN
 A tutorial for implementing the JMGCN model
+
 ![image](https://github.com/user-attachments/assets/5303ce72-bc55-4128-995a-b1a3c69e164f)
 
 ## 1. Code files
