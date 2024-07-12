@@ -27,7 +27,7 @@ Here, we introduce the main python files for the proposed JM-GCN model.
 - **train.py**: The main program to start the experiment.
 
 ## 3. Dataset
-We provide the raw data used by the JM-GCN model so that subsequent researchers can use the study. This includes daily pollutant and meteorological data for Beijing, site information, and POI data. The data are stored in the `... /JM-GCN-main/data`
+We provide the raw data used by the JM-GCN model so that subsequent researchers can use the study. This includes daily pollutant and meteorological data for Beijing, site information, and POI data.
 The raw data is available for download on this cloud drive 
 https://drive.google.com/drive/folders/1p0a8FlJ4KN-bdqBN3BAP6YJx180vvESe?usp=sharing
 
