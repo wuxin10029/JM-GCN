@@ -28,7 +28,7 @@ Here, we introduce the main python files for the proposed JM-GCN model.
 
 ## 3. Dataset
 We provide the raw data used by the JM-GCN model so that subsequent researchers can use the study. This includes daily pollutant and meteorological data for Beijing, site information, and POI data. The data are stored in the `... /JM-GCN-main/data`
-
+The raw data is available for download on this cloud drive
 Details of each file are shown below:
 - **beijing_data**: You need to place `station_aq.xlsx` in this folder, get the name of the station and the latitude and longitude of the station. You need to generate a CSV file based on the raw data file with dimensions 26304*238, where 26304 is the time step and 238 means 34 stations with 7 features (including AQI, wind speed, barometric humidity, etc.) per station.
 - **matrix**: `dist.npy`, `func.npy`, `poi.npy`, static adjacency matrix with dimension 34*34. Dynamic adjacency matrices are generated directly in the code run.
